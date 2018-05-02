@@ -17,7 +17,7 @@ var mongoConfig = {
 	database: 'sample-test'
 };
 var uri = 'mongodb://' + mongoConfig.username + ':' + mongoConfig.password + '@dsxxxxxx.mlab.com:xxxxxx/'+mongoConfig.database;
-
+mongoose.Promise = global.Promise;
 console.log('\n'+'\x1b[33m%s\x1b[0m: ','Checking for database connectivity..')
 mongoose.connect(uri, {}, function(err) {
 	if(err){
