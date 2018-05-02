@@ -9,7 +9,7 @@ module.exports = {
 	sign: (payload, $Options) => {
 		/*
 			sOptions = {
-				issuer: "Authorization/Resource/This server",
+				issuer: "Authorizaxtion/Resource/This server",
 				subject: "iam@user.me", 
 				audience: "Client_Identity" // this should be provided by client
 			}
