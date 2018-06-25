@@ -1,3 +1,5 @@
+// THIS is a SAMPLE file to understand whats going on in original file 'jwt.js'
+
 'use strict';
 
 const fs = require('fs');
